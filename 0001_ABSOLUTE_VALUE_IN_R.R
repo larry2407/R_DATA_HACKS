@@ -1,4 +1,7 @@
-
+# from https://data-hacks.com/r-programming-language
+# from https://statisticsglobe.com/absolute-value-in-r # page not found
+# I keep URLs gien by GitHub Copilot in comments in case I need to refer back to them, even if they are not accessible.
+# their main page might be of interest.
 # Absolute Value in R (Example) -------------------------------------------
 # example 1
 # of how to calculate the absolute value of a vector in R
