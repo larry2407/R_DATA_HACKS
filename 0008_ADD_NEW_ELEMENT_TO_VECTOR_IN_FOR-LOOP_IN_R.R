@@ -1,3 +1,4 @@
+source("0000_INITIALIZE_LESSONS_LIST_IN_R.R") # Load schedule
 # Add New Element to Vector in for-Loop in R (Example Code) ---------------
 
 vector_object <- letters[1:3]            # Creating a vector object in R

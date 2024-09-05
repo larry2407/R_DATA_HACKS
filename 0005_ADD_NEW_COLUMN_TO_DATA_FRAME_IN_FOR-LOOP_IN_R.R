@@ -1,4 +1,4 @@
-
+source("0000_INITIALIZE_LESSONS_LIST_IN_R.R") # Load schedule
 # Add New Column to Data Frame in for-Loop in R (Example Code) ------------
 
 head(iris) # preview the iris data frame

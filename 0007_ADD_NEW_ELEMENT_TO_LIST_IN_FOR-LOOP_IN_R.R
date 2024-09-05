@@ -1,4 +1,4 @@
-
+source("0000_INITIALIZE_LESSONS_LIST_IN_R.R") # Load schedule
 # Add New Element to List in for-Loop in R (Example Code) -----------------
 
 list_object <- list(1:7,

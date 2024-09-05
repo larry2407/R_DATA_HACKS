@@ -1,4 +1,4 @@
-
+source("0000_INITIALIZE_LESSONS_LIST_IN_R.R") # Load schedule
 # Add Text Labels to Plot with textxy() Function in R (2 Examples) --------
 
 plot(iris$Sepal.Length,        # Creating plot without text

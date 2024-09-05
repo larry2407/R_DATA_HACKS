@@ -1,4 +1,4 @@
-
+source("0000_INITIALIZE_LESSONS_LIST_IN_R.R") # Load schedule
 # Add Significance Levels to ggplot2 Plot Using ggsignif Package i --------
 
 # This article explains how to annotate significance levels to a ggplot2 graph in the R programming language.

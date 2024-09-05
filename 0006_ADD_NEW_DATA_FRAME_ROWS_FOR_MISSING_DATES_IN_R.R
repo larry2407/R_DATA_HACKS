@@ -1,4 +1,4 @@
-
+source("0000_INITIALIZE_LESSONS_LIST_IN_R.R") # Load schedule
 # Add New Data Frame Rows for Missing Dates in R (Example Code) -----------
 
 my_df <- data.frame(time = as.Date(c("2021-05-10",  # Create example data
