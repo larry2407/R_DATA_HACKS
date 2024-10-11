@@ -1,4 +1,5 @@
-# from https://data-hacks.com/r-programming-language
+# from
+site_url <- "https://data-hacks.com/r-programming-language"
 # load schedule and lesson of the day -------------------------------------
 
 library(tidyverse)
@@ -14,7 +15,11 @@ msg <- my_schedule %>%
 
   message("Today's lesson is:\n", 
           msg, "\n", 
-          toupper(str_replace_all(msg, " ", "_")))
+          toupper(msg %>% 
+                    str_replace_all(" ", "_") %>% 
+                    str_replace_all(":", "-")
+                    ),"\n", 
+          site_url)
 
 # create a text file with all the lessons of the day
 if(!file.exists(file.path("txt", "all_lessons_of_the_day.txt"))) {
