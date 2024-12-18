@@ -22,6 +22,7 @@ iris_cumsum <- iris_sub %>%        # Create cumsum column
     PW_CS = cumsum(Petal.Width)
                 ) # Cumsum by group
 head(iris_cumsum)
+str(iris_cumsum) # Check the structure of the data frame
 # Summary: This tutorial illustrated how to calculate the cumsum by groups in a data frame in the R programming language. If you have any further questions, please let me know in the comments section.
 
 # Further Resources & Related Articles
